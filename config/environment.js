@@ -4,6 +4,12 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ecommerce-site',
     environment: environment,
+    firebase: {
+      apiKey: "AIzaSyCg8XdCcaC3uYSJZyJf8H49EPDYNBO2ZuI",
+      authDomain: "e-commerce-2f967.firebaseapp.com",
+      databaseURL: "https://e-commerce-2f967.firebaseio.com",
+      storageBucket: "e-commerce-2f967.appspot.com",
+    },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
