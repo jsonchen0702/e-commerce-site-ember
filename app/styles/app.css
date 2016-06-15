@@ -6,10 +6,27 @@ body {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 70px;
+  padding: 40px;
 }
 
 footer {
   position: fixed;
   bottom: 10px;
+}
+
+.splash-image {
+  text-align: center;
+  padding: 100px;
+  background-color: lightblue;
+  margin-top: 20px;
+  font-size: 20pt;
+}
+
+.item-category-link {
+  margin-top: 20px;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 40px;
+  border-right: solid black 1px;
+  font-size: 20pt;
 }
