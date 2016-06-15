@@ -6,7 +6,7 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         description: this.get('description'),
-        price: parseInt(this.get('price')),
+        price: parseFloat(this.get('price')),
         image: this.get('image'),
       };
       this.sendAction('saveItem', params);
