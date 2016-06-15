@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 70px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+}
