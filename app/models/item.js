@@ -6,5 +6,6 @@ export default Model.extend({
   name: attr(),
   description: attr(),
   price: attr(),
-  image: attr()
+  image: attr(),
+  category: attr()
 });
