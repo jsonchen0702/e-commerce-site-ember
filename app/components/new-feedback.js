@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     saveFeedback() {
       var params = {
         username: this.get('username'),
-        rating: 0,
+        rating: this.get('rating'),
         comment: this.get('comment'),
         time: moment().format('LL'),
         item: this.get('item'),

@@ -25,13 +25,17 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+.change-the-fucking-font-size {
+  font-size: 22pt;
+}
 
 .title {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   @extend .amber, .darken-2;
   color: white;
   padding: 40px;
+  margin-bottom: 40px;
 }
 
 .splash-image {
@@ -66,6 +70,10 @@ body {
   color: white;
 }
 
+.detail-image {
+  width: 100%;
+}
+
 .item-tile-box {
   margin-top: 20px;
   padding: 20px;
@@ -81,6 +89,16 @@ body {
   height: 300px;
 }
 
+.item-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.add-an-item-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .item-category-title {
   margin-top: 40px;
   text-align: center;
@@ -91,13 +109,13 @@ body {
 }
 
 .star-rating-selection {
+  text-indent: 10px;
   font-size: 14pt;
   color: black;
 }
 
 .star-rating-selection:hover {
   cursor: pointer;
-  text-indent: 10px;
   color: #ff5722;
 }
 
