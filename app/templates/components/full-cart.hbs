@@ -1,9 +1,11 @@
-<h1>FULL CART</h1>
-
-{{#each shoppingCart.items as |item|}}
-  {{item.name}} - ${{item.price}}
-  <br>
-{{/each}}
-
-<h2>Total:</h2>
-<h2>${{cartTotal}}</h2>
+{{#if shoppingCart.items}}
+  <h2>Your Shopping Cart:</h2>
+  {{#each shoppingCart.items as |item|}}
+    {{item.name}} - ${{item.price}}
+    <br>
+  {{/each}}
+  <h3>Total: ${{cartTotal}}</h3>
+{{else}}
+  <h2>Your shopping cart is empty :(</h2>
+  <h2>Go buy some delicious foods and drinks!</h2>
+{{/if}}
