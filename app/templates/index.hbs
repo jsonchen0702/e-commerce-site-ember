@@ -1,21 +1,23 @@
-<div class="splash-image">
-  <p>INSERT BIG SQUARE BANNER PICTURE THING HERE</p>
-</div>
+<div class="splash-image z-depth-3">
 
-<div class="col-sm-1">
-</div>
+  <div class="col-sm-1">
+  </div>
 
-<div class="col-sm-5 item-category-link">
-  {{#link-to 'foods'}}BROWSE GOURMET FOODS{{/link-to}}
-</div>
+  {{#link-to 'foods'}}
+    <div class="col-sm-4 z-depth-3 item-category-link">
+      BROWSE GOURMET FOODS
+    </div>
+  {{/link-to}}
 
-<div class="col-sm-5 item-category-link">
-  {{#link-to 'index'}}BROWSE GOURMET DRINK{{/link-to}}
-</div>
+  <div class="col-sm-2"></div>
 
-<div class="col-sm-1">
-</div>
+  {{#link-to 'index'}}
+    <div class="col-sm-4 z-depth-3 item-category-link">
+      BROWSE GOURMET DRINKS
+    </div>
+  {{/link-to}}
 
-<div class="col-sm-12">
-  {{display-cart}}
+  <div class="col-sm-1">
+  </div>
+
 </div>

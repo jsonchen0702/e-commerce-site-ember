@@ -1,9 +1,9 @@
-<nav class='navbar navbar-default'>
-  <div class='container-fluid'>
-    <div class="anvbar-header">
-      <a class='navbar-brand' href='#'><span class="glyphicon glyphicon-ice-lolly-tasted"></span>GG</a>
+<nav>
+  <div class='nav-wrapper'>
+    <div class="navbar-header">
+      <a class='navbar-brand' href='/'><span class="glyphicon glyphicon-ice-lolly-tasted"></span>FTY</a>
     </div>
-    <ul class='nav navbar-nav'>
+    <ul class='right hide-on-med-and-down'>
       <li>{{#link-to 'index'}}Home{{/link-to}}</li>
       <li>{{#link-to 'foods'}}Food{{/link-to}}</li>
       <li>{{#link-to 'drinks'}}Drinks{{/link-to}}</li>
@@ -15,10 +15,33 @@
 </nav>
 <div class='container'>
   <div class="title">
-    <h1>Gourmet Ghost</h1>
+    <h1>From My Table To Yours</h1>
+    <h5>Gourmet Food and Drinks</h5>
   </div>
 
   {{outlet}}
 </div>
 
 {{md-modal-container}}
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">More Information</h5>
+        <p class="grey-text text-lighten-4">Cool information goes here</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Cool Links</h5>
+        <ul class="admin">
+          {{#link-to 'admin'}}<li>Admin Access</li>{{/link-to}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Ember Web App by Adam Craig and Ashley Maceli [2016]
+    </div>
+  </div>
+</footer>
