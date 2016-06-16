@@ -66,7 +66,12 @@ footer {
 .star-rating-selection:hover {
   cursor: pointer;
   text-indent: 10px;
-  color: blue;
+  color: #ff5722;
+}
+
+.selected-rating {
+  color: #ff5722;
+  text-indent: 10px;
 }
 
 .feedback-header {
@@ -80,6 +85,7 @@ footer {
 }
 
 .feedback-box {
+  margin-top: 20px;
   padding: 10px;
   background-color: lightgrey;
   height: 200px;
