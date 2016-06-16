@@ -8,7 +8,7 @@ export default Ember.Component.extend({
     this.get('shoppingCart.items').forEach(function(item) {
       totalCost += item.get('price');
     });
-    return totalCost;
+    return totalCost.toFixed(2);
   }),
 
 });

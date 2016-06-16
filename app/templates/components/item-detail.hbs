@@ -1,9 +1,18 @@
-<img src="{{item.image}}">
-<br>
 <h2>{{item.name}}</h2>
+<br>
+<img src="{{item.image}}">
 <br>
 <h3>${{item.price}}</h3>
 <br>
 <p>{{item.description}}</p>
 <br>
 <button {{action 'addToCart' item}} class="waves-effect waves-light btn add-to-cart"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+
+<div class="row all-feedback-box">
+  <h5 class="feedback-header">Feedback For This Item</h5>
+  {{#each item.feedbacks as |feedback|}}
+  {{feedback-tile feedback=feedback}}
+  {{/each}}
+</div>
+
+{{new-feedback saveFeedback="saveFeedback" item=item}}

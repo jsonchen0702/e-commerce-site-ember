@@ -7,5 +7,8 @@ export default Ember.Component.extend({
     addToCart(item) {
       this.get('shoppingCart').add(item);
     },
+    saveFeedback(params) {
+      this.sendAction('saveFeedback', params);
+    }
   }
 });

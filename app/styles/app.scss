@@ -24,7 +24,6 @@ body {
 }
 
 footer {
-  position: fixed;
   bottom: 10px;
 }
 
@@ -57,4 +56,22 @@ footer {
 
 .add-to-cart {
   margin-top: 10px;
+}
+
+.feedback-header {
+  text-align: center;
+}
+
+.all-feedback-box {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: grey;
+}
+
+.feedback-box {
+  padding: 10px;
+  background-color: lightgrey;
+  height: 200px;
+  font-size: 14pt;
+  overflow: hidden;
 }

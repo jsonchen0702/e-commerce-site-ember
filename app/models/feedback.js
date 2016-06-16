@@ -3,10 +3,9 @@ import attr from 'ember-data/attr';
 import { belongsTo, hasMany } from 'ember-data/relationships';
 
 export default Model.extend({
-  name: attr(),
-  description: attr(),
-  price: attr(),
-  image: attr(),
-  category: attr(),
-  feedbacks: hasMany('feedback', { async: true}),
+  username: attr(),
+  rating: attr(),
+  comment: attr(),
+  time: attr(),
+  item: belongsTo('item', { async: true}),
 });
