@@ -58,6 +58,17 @@ footer {
   margin-top: 10px;
 }
 
+.star-rating-selection {
+  font-size: 14pt;
+  color: black;
+}
+
+.star-rating-selection:hover {
+  cursor: pointer;
+  text-indent: 10px;
+  color: blue;
+}
+
 .feedback-header {
   text-align: center;
 }
